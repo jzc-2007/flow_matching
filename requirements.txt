@@ -1,0 +1,14 @@
+absl-py==1.4.0
+clu==0.0.11
+flax==0.8.1
+-f https://storage.googleapis.com/jax-releases/libtpu_releases.html
+-f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+jax[tpu]==0.4.25  # change to jax[tpu] if running on tpus
+ml-collections==0.1.1
+numpy==1.26.4
+optax==0.2.1
+tensorflow==2.15.0.post1
+torch==2.2.2
+torchvision==0.17.2
+orbax-checkpoint==0.4.4
+chex==0.1.86

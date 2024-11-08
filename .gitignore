@@ -1,0 +1,12 @@
+tmp/
+cache/
+
+__pycache__
+
+.nfs*
+data/
+
+log
+results/
+results
+structure.md
